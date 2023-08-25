@@ -5,11 +5,11 @@ import Footer from './Components/Footer';
 
 const App = () => {
   return (
-    <>
+    <div className='text-sm md:text-base'>
       <Header />
       <Main />
       <Footer />
-    </>
+    </div>
   );
 };
 

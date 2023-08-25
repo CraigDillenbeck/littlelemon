@@ -1,13 +1,13 @@
 import Nav from "./Nav";
-import Logo from "../Assets/Images/Logo.png";
+import NavLogo from "./NavLogo";
 
 const Header = () => {
   return (
-    <header>
-      <img src={Logo} alt="Little Lemon Logo" width="200px" />
+    <header className="flex h-24 justify-between items-center px-5">
+      <NavLogo />
       <Nav />
     </header>
   );
-};
+}
 
 export default Header;

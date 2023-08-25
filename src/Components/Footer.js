@@ -1,4 +1,5 @@
-import Nav from "./Nav";
+import NavLogo from "./NavLogo";
+import FooterNav from "./FooterNav";
 import facebook from "../Assets/Images/facebook-f.png";
 import instagram from "../Assets/Images/instagram-new.png";
 import twitter from "../Assets/Images/twitter--v2.png";
@@ -28,7 +29,7 @@ const socials = [
 ]
 
 const socialItems = socials.map((social) => {
-  return <img src={social.icon} key={social.key} alt={social.alt} />;
+  return <img className="px-4 w-16" src={social.icon} key={social.key} alt={social.alt} />;
 })
 
 const contacts = [
@@ -56,13 +57,22 @@ const contactItems = contacts.map((contact) => {
 const Footer = () => {
   return (
     <footer>
-      <Nav />
-      <ul>
-        {socialItems}
-      </ul>
-      <ul>
-        {contactItems}
-      </ul>
+      <section className="flex justify-center">
+        <NavLogo />
+      </section>
+      <section className="px-5 grid md:grid-cols-3">
+        <div className="grid items-center">
+          <ul className="grid justify-items-center md:justify-items-start">
+            {contactItems}
+          </ul>
+        </div>
+        <FooterNav />
+        <div className="flex items-center justify-center">
+          <ul className="flex pt-5">
+            {socialItems}
+          </ul>
+        </div>
+      </section>
     </footer>
   );
 }
