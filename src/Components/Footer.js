@@ -56,7 +56,7 @@ const contactItems = contacts.map((contact) => {
 
 const Footer = () => {
   return (
-    <footer>
+    <footer className="my-8">
       <section className="flex justify-center">
         <NavLogo />
       </section>

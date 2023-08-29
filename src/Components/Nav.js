@@ -22,7 +22,7 @@ const Nav = () => {
       <div onClick={handleNav} className="md:hidden">
         {!nav ? <AiOutlineMenu size={25} /> : <AiOutlineClose size={25} />}
       </div>
-      <div className={nav ? "fixed left-5 top-20 bg-slate-50 w-2/3 ease-in-out duration-300 p-3 md:w-1/3" : "fixed left-[-100%]"}>
+      <div className={nav ? "fixed left-5 top-20 rounded-lg bg-white w-2/3 ease-in-out duration-300 p-3 md:w-1/3 z-20" : "fixed left-[-100%]"}>
         <ul>
           <li className="p-2 border-b border-gray-400">Home</li>
           <li className="p-2 border-b border-gray-400">About</li>
