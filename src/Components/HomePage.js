@@ -3,7 +3,7 @@ import SpecialsHomePage from "./SpecialsHomePage";
 import Testimonials from "./Testimonials";
 import AboutHomePage from "./AboutHomePage";
 
-const Main = () => {
+const HomePage = () => {
   return (
     <main>
       <HeroHomePage />
@@ -14,4 +14,4 @@ const Main = () => {
   );
 }
 
-export default Main;
+export default HomePage;
