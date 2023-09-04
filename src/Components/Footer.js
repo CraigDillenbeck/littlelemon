@@ -66,12 +66,12 @@ const Footer = () => {
             {contactItems}
           </ul>
         </div>
-        <FooterNav />
         <div className="flex items-center justify-center">
           <ul className="flex pt-5">
             {socialItems}
           </ul>
         </div>
+        <FooterNav />
       </section>
     </footer>
   );

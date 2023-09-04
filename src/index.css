@@ -15,3 +15,7 @@ h4 {
   font-family: 'Markazi Text', serif;
 }
 
+input.input-error,
+select.input-error {
+  border-color: #fc8181;
+}

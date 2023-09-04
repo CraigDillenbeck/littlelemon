@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 const FooterNav = () => {
   return (
-    <ul className="grid justify-center py-5 md:py-0">
+    <ul className="grid justify-center md:justify-items-end py-5 md:py-0">
       <li className="text-slate-500 text-center">
         <Link to="/">Home</Link>
       </li>
