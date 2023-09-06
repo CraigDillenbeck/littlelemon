@@ -6,6 +6,10 @@ A Home Page and Reservation page has been built to represent the Little Lemon re
 
 In the project directory, you can run:
 
+## `npm intall` to establish all dependencies
+
+then
+
 ### `npm start`
 
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
