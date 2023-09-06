@@ -9,7 +9,7 @@ const SpecialsHomePage = () => {
       <section className="grid justify-center pt-4 md:flex md:justify-between md:pt-24 md:pb-6">
         <h1 className="text-2xl grid align-middle md:text-3xl md:pr-4">This weeks specials!</h1>
         <div className="flex justify-center md:pl-4">
-          <button className="grid bg-[#F4CE14] p-3 rounded-2xl">Online Menu</button>
+          <button className="grid bg-[#F4CE14] hover:bg-[#BA9D0F] p-3 rounded-2xl">Online Menu</button>
         </div>
       </section>
 

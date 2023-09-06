@@ -12,7 +12,7 @@ const HeroHomePage = () => {
           We are family owned Mediterranean Restaurant, focused on traditional recipes served with a modern trait.
         </p>
         <Link to="/reservation">
-          <button className="bg-[#F4CE14] py-3 px-5 rounded-2xl">Reserve A Table</button>
+          <button className="bg-[#F4CE14] hover:bg-[#BA9D0F] py-3 px-5 rounded-2xl">Reserve A Table</button>
         </Link>
       </div>
       <div className="absolute right-[20px] z-0 opacity-70 md:opacity-100 md:mt-4 md:flex md:rounded-2xl md:overflow-clip md:static md:h-[370px] lg:static lg:overflow-clip">
